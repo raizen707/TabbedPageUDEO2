@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TabbedPageUDEO2"
+             x:Class="TabbedPageUDEO2.MainPage">
+    <local:Contacts Title="Pagina Contactos" Icon="icon.png"></local:Contacts>
+    <ContentPage Title="Pagina 1" Icon="icon.png">
+        <Label Text="Esta es la pagina 1, con su contenido" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+    </ContentPage>
+    <ContentPage Title="Pagina 2" Icon="icon.png">
+        <Label Text="Texto de la pagina 2" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+    </ContentPage>
+
+</TabbedPage>
